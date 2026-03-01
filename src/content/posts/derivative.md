@@ -1,5 +1,5 @@
 ---
-title: derivative/导数
+title: 导数/derivative
 published: 2026-03-01
 description: 常用一元导数集合
 image: ''
@@ -14,58 +14,58 @@ lang: zh
 ## 一、基本初等函数
 
 ### 1. 常数与幂函数
-| 函数 | 导数 | 定义域/备注 |
-|:---:|:---:|:---:|
-| $c$（常数）| $0$ | $c \in \mathbb{R}$ |
-| $x^n$ | $n x^{n-1}$ | $n \in \mathbb{R}, x \neq 0$（当 $n<1$）|
-| $\sqrt{x}$ | $\frac{1}{2\sqrt{x}}$ | $x > 0$ |
-| $\frac{1}{x}$ | $-\frac{1}{x^2}$ | $x \neq 0$ |
+|     函数      |         导数          |               定义域/备注                |
+| :-----------: | :-------------------: | :--------------------------------------: |
+|  $c$（常数）  |          $0$          |            $c \in \mathbb{R}$            |
+|     $x^n$     |      $n x^{n-1}$      | $n \in \mathbb{R}, x \neq 0$（当 $n<1$） |
+|  $\sqrt{x}$   | $\frac{1}{2\sqrt{x}}$ |        $x > 0$(上方的特殊化版本)         |
+| $\frac{1}{x}$ |   $-\frac{1}{x^2}$    |                $x \neq 0$                |
 
 ### 2. 指数与对数函数
-| 函数 | 导数 | 定义域/备注 |
-|:---:|:---:|:---:|
-| $e^x$ | $e^x$ | $x \in \mathbb{R}$ |
-| $a^x$ | $a^x \ln a$ | $a > 0, a \neq 1$ |
-| $\ln x$ | $\frac{1}{x}$ | $x > 0$ |
-| $\log_a x$ | $\frac{1}{x \ln a}$ | $a > 0, a \neq 1, x > 0$ |
-| $\ln \|x\|$ | $\frac{1}{x}$ | $x \neq 0$ |
+|    函数     |        导数         |       定义域/备注        |
+| :---------: | :-----------------: | :----------------------: |
+|    $e^x$    |        $e^x$        |    $x \in \mathbb{R}$    |
+|    $a^x$    |     $a^x \ln a$     |    $a > 0, a \neq 1$     |
+|   $\ln x$   |    $\frac{1}{x}$    |         $x > 0$          |
+| $\log_a x$  | $\frac{1}{x \ln a}$ | $a > 0, a \neq 1, x > 0$ |
+| $\ln \|x\|$ |    $\frac{1}{x}$    |        $x \neq 0$        |
 
 ---
 
 ## 二、三角函数
 
-| 函数 | 导数 | 定义域限制 |
-|:---:|:---:|:---:|
-| $\sin x$ | $\cos x$ | — |
-| $\cos x$ | $-\sin x$ | — |
-| $\tan x$ | $\sec^2 x = \frac{1}{\cos^2 x}$ | $x \neq \frac{\pi}{2} + k\pi$ |
-| $\cot x$ | $-\csc^2 x = -\frac{1}{\sin^2 x}$ | $x \neq k\pi$ |
-| $\sec x$ | $\sec x \tan x$ | $x \neq \frac{\pi}{2} + k\pi$ |
-| $\csc x$ | $-\csc x \cot x$ | $x \neq k\pi$ |
+|   函数   |               导数                |          定义域限制           |
+| :------: | :-------------------------------: | :---------------------------: |
+| $\sin x$ |             $\cos x$              |               —               |
+| $\cos x$ |             $-\sin x$             |               —               |
+| $\tan x$ |  $\sec^2 x = \frac{1}{\cos^2 x}$  | $x \neq \frac{\pi}{2} + k\pi$ |
+| $\cot x$ | $-\csc^2 x = -\frac{1}{\sin^2 x}$ |         $x \neq k\pi$         |
+| $\sec x$ |          $\sec x \tan x$          | $x \neq \frac{\pi}{2} + k\pi$ |
+| $\csc x$ |         $-\csc x \cot x$          |         $x \neq k\pi$         |
 
 ---
 
 ## 三、反三角函数
 
-| 函数 | 导数 | 定义域 |
-|:---:|:---:|:---:|
-| $\arcsin x$ | $\frac{1}{\sqrt{1-x^2}}$ | $\|x\| < 1$ |
-| $\arccos x$ | $-\frac{1}{\sqrt{1-x^2}}$ | $\|x\| < 1$ |
-| $\arctan x$ | $\frac{1}{1+x^2}$ | $x \in \mathbb{R}$ |
-| $\text{arccot } x$ | $-\frac{1}{1+x^2}$ | $x \in \mathbb{R}$ |
-| $\text{arcsec } x$ | $\frac{1}{\|x\|\sqrt{x^2-1}}$ | $\|x\| > 1$ |
-| $\text{arccsc } x$ | $-\frac{1}{\|x\|\sqrt{x^2-1}}$ | $\|x\| > 1$ |
+|        函数        |              导数              |       定义域       |
+| :----------------: | :----------------------------: | :----------------: |
+|    $\arcsin x$     |    $\frac{1}{\sqrt{1-x^2}}$    |    $\|x\| < 1$     |
+|    $\arccos x$     |   $-\frac{1}{\sqrt{1-x^2}}$    |    $\|x\| < 1$     |
+|    $\arctan x$     |       $\frac{1}{1+x^2}$        | $x \in \mathbb{R}$ |
+| $\text{arccot } x$ |       $-\frac{1}{1+x^2}$       | $x \in \mathbb{R}$ |
+| $\text{arcsec } x$ | $\frac{1}{\|x\|\sqrt{x^2-1}}$  |    $\|x\| > 1$     |
+| $\text{arccsc } x$ | $-\frac{1}{\|x\|\sqrt{x^2-1}}$ |    $\|x\| > 1$     |
 
 ---
 
 ## 四、双曲函数
 
-| 函数 | 定义 | 导数 |
-|:---:|:---:|:---:|
-| $\sinh x$ | $\frac{e^x - e^{-x}}{2}$ | $\cosh x$ |
-| $\cosh x$ | $\frac{e^x + e^{-x}}{2}$ | $\sinh x$ |
+|   函数    |           定义            |               导数                |
+| :-------: | :-----------------------: | :-------------------------------: |
+| $\sinh x$ | $\frac{e^x - e^{-x}}{2}$  |             $\cosh x$             |
+| $\cosh x$ | $\frac{e^x + e^{-x}}{2}$  |             $\sinh x$             |
 | $\tanh x$ | $\frac{\sinh x}{\cosh x}$ | $\text{sech}^2 x = 1 - \tanh^2 x$ |
-| $\coth x$ | $\frac{\cosh x}{\sinh x}$ | $-\text{csch}^2 x$ | $(x \neq 0)$ |
+| $\coth x$ | $\frac{\cosh x}{\sinh x}$ |        $-\text{csch}^2 x$         | $(x \neq 0)$ |
 
 ---
 
@@ -73,40 +73,40 @@ lang: zh
 
 设 $u(x), v(x)$ 可导，$c$ 为常数：
 
-| 法则名称 | 公式 |
-|:---:|:---|
-| **线性性** | $(cu)' = cu'$ |
-| **加法** | $(u \pm v)' = u' \pm v'$ |
-| **乘法（莱布尼茨）** | $(uv)' = u'v + uv'$ |
-| **除法** | $\left(\frac{u}{v}\right)' = \frac{u'v - uv'}{v^2}$ | $(v \neq 0)$ |
-| **链式法则** | $\frac{d}{dx}f(g(x)) = f'(g(x)) \cdot g'(x)$ |
-| **反函数求导** | $\frac{dy}{dx} = \frac{1}{\frac{dx}{dy}}$ | $(\frac{dx}{dy} \neq 0)$ |
+|       法则名称       | 公式                                                |
+| :------------------: | :-------------------------------------------------- |
+|      **线性性**      | $(cu)' = cu'$                                       |
+|       **加法**       | $(u \pm v)' = u' \pm v'$                            |
+| **乘法（莱布尼茨）** | $(uv)' = u'v + uv'$                                 |
+|       **除法**       | $\left(\frac{u}{v}\right)' = \frac{u'v - uv'}{v^2}$ | $(v \neq 0)$             |
+|     **链式法则**     | $\frac{d}{dx}f(g(x)) = f'(g(x)) \cdot g'(x)$        |
+|    **反函数求导**    | $\frac{dy}{dx} = \frac{1}{\frac{dx}{dy}}$           | $(\frac{dx}{dy} \neq 0)$ |
 
 ---
 
 ## 六、高阶导数与特殊公式
 
-| 公式 | 说明 |
-|:---|:---|
-| $(e^x)^{(n)} = e^x$ | 任意阶导数不变 |
-| $(a^x)^{(n)} = a^x (\ln a)^n$ | |
-| $(\sin x)^{(n)} = \sin\left(x + \frac{n\pi}{2}\right)$ | |
-| $(\cos x)^{(n)} = \cos\left(x + \frac{n\pi}{2}\right)$ | |
-| $(\ln x)^{(n)} = (-1)^{n-1}\frac{(n-1)!}{x^n}$ | $n \geq 1$ |
-| $(x^m)^{(n)} = m(m-1)\cdots(m-n+1)x^{m-n}$ | 当 $n \leq m$，否则为 $0$（$m \in \mathbb{N}$）|
+| 公式                                                   | 说明                                            |
+| :----------------------------------------------------- | :---------------------------------------------- |
+| $(e^x)^{(n)} = e^x$                                    | 任意阶导数不变                                  |
+| $(a^x)^{(n)} = a^x (\ln a)^n$                          |                                                 |
+| $(\sin x)^{(n)} = \sin\left(x + \frac{n\pi}{2}\right)$ |                                                 |
+| $(\cos x)^{(n)} = \cos\left(x + \frac{n\pi}{2}\right)$ |                                                 |
+| $(\ln x)^{(n)} = (-1)^{n-1}\frac{(n-1)!}{x^n}$         | $n \geq 1$                                      |
+| $(x^m)^{(n)} = m(m-1)\cdots(m-n+1)x^{m-n}$             | 当 $n \leq m$，否则为 $0$（$m \in \mathbb{N}$） |
 
 ---
 
 ## 七、常用复合函数导数速查
 
-| 函数 | 导数 |
-|:---:|:---:|
-| $e^{u(x)}$ | $e^{u(x)} \cdot u'(x)$ |
-| $\ln u(x)$ | $\frac{u'(x)}{u(x)}$ |
-| $[u(x)]^n$ | $n[u(x)]^{n-1} \cdot u'(x)$ |
-| $\sin u(x)$ | $\cos u(x) \cdot u'(x)$ |
-| $\arctan u(x)$ | $\frac{u'(x)}{1+u^2(x)}$ |
-| $a^{u(x)}$ | $a^{u(x)} \ln a \cdot u'(x)$ |
+|      函数      |             导数             |
+| :------------: | :--------------------------: |
+|   $e^{u(x)}$   |    $e^{u(x)} \cdot u'(x)$    |
+|   $\ln u(x)$   |     $\frac{u'(x)}{u(x)}$     |
+|   $[u(x)]^n$   | $n[u(x)]^{n-1} \cdot u'(x)$  |
+|  $\sin u(x)$   |   $\cos u(x) \cdot u'(x)$    |
+| $\arctan u(x)$ |   $\frac{u'(x)}{1+u^2(x)}$   |
+|   $a^{u(x)}$   | $a^{u(x)} \ln a \cdot u'(x)$ |
 
 ---
 

@@ -6,7 +6,8 @@ image: ''
 tags: [导数]
 category: 数学
 draft: false 
-lang: zh
+lang: zh_CN
+pinned: false
 ---
 
 # 常见一元函数导数公式大全

@@ -6,7 +6,8 @@ image: ''
 tags: [Markdown, Fuwari]
 category: Markdown
 draft: false 
-lang: zh
+lang: zh_CN
+pinned: true
 ---
 ## GitHub 仓库卡片
 你可以添加动态卡片，这些卡片链接到 GitHub 仓库，在页面加载时，仓库信息会从 GitHub API 获取

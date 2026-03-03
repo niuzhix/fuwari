@@ -2,7 +2,7 @@
 title: 导数详解/Detailed Explanation
 published: 2026-03-03
 description: 导数详解
-image: \images\detailed_explanation.png
+image: ./images/detailed_explanation.png
 tags: [导数]
 category: 数学
 draft: false 

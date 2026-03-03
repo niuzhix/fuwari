@@ -1,5 +1,5 @@
 ---
-title: 导数/derivative
+title: 导数/Derivative
 published: 2026-03-01
 description: 常用一元导数集合
 image: ''

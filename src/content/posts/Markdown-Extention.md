@@ -1,5 +1,5 @@
 ---
-title: Markdown 扩展/Markdown-Extention
+title: Markdown 扩展/Markdown Extention
 published: 2026-03-01
 description: 'Markdown 扩展语法(Fuwari)'
 image: ''

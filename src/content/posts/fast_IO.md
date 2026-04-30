@@ -19,7 +19,7 @@ pinned: true
 
 本文适用于 **C++**，所有代码均在 **洛谷评测环境（Linux / GCC）** 下测试通过。
 :::info[参考代码]
-```
+```cpp
 #include <bits/stdc++.h>
 #define int size_t
 #define N 1e5
@@ -41,7 +41,7 @@ main() {
 
 C++ 标准输入输出流，支持类型安全。
 
-```
+```cpp
 int a;
 std::cin >> a;
 std::cout << a << '\n';
@@ -62,7 +62,7 @@ std::cout << a << '\n';
 
 ### 2.2 用法
 
-```
+```cpp
 #include <iostream>
 int main() {
     std::ios::sync_with_stdio(false);
@@ -79,7 +79,7 @@ int main() {
 
 - 上述代码符合 C++ 标准，在 GCC / Clang / MSVC 下均可运行，**无平台兼容性问题**。
 - 解除绑定后，若需提示信息在输入前显示，必须手动刷新缓冲区：
-  ```
+  ```cpp
   std::cout << "请输入：" << std::flush;
   ```
 - 注意：关闭同步后**不能混用** `cin` / `cout` 与 `scanf` / `printf`（但可以混用 `cin` 与 `printf`，因为输入输出流独立）。
@@ -89,7 +89,7 @@ int main() {
 使用格式占位符，比默认 `cin` / `cout` 稍快，但慢于解除同步的 C++ 流。
 
 ### 3.1 用法
-```
+```cpp
 int a;
 scanf("%d", &a);
 printf("%d", a);
@@ -121,7 +121,7 @@ printf("%d", a);
 
 ### 4.2 标准模板（Linux / GCC 通用）
 
-```
+```cpp
 #include <cctype>
 #ifdef __unix__
 	#define gc getchar_unlocked
@@ -193,7 +193,7 @@ namespace IOPlus {
 
 ### 5.2 实现模板（通用版）
 
-```
+```cpp
 #include <cctype>
 #include <cstdio>
 
